@@ -2,11 +2,11 @@
 
    // console.log("This does not print.");
 
-   console.log("Hello, World!"); // Comments do not have to start at the beginning of a line.
+   // Another comment
 
-   /* Here is how
-   to have
-   multi-line
-   comments. */
+   console.log("Hello, World!"); // This is a comment
+   /* This is
+   also
+   a comment*/
 
    console.log("Comments make your code more readable by others.");
