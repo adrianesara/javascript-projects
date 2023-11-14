@@ -2,8 +2,17 @@
 
 
 // Code your buildCrewArray function here:
+function buildCrewArray(selectedIds, candidates) {
+  let crew = []
 
-
+for(let i=0; i < candidates.length; i++) {
+  for(let j=0; j< candidates.length; j++) {
+  if (selectedIds[i] === candidates[i].astronautID) {
+    crew.push(candidates[j].name())
+  }
+  }
+}
+return crew
 let idNumbers = [291, 414, 503, 599, 796, 890];
 
 // Here are the candidates and the 'animals' array:
