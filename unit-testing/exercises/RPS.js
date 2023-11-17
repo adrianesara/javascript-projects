@@ -15,7 +15,8 @@ function whoWon(player1,player2){
    if (player1 === 'scissors' && player2 === 'rock'){
      return 'Player 2 wins!';
    }
-   if (player1 !== 'scissors'&&'paper'&&'rock' || player2 !== 'scissors'&&'paper'&&'rock'){
+   if (player1 !== 'scissors' && player1 !=='paper' && player1 !=='rock' || 
+   player2 !== 'scissors' && player2 !=='paper' && player2 !=='rock'){
     return 'Error: not a valid choice';
    }
   
@@ -26,4 +27,3 @@ function whoWon(player1,player2){
 }
  module.exports = whoWon;
 
- console.log(whoWon("paper","rock"))
